@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   font-family: 'Poppins', sans-serif;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h4{
+    font-size: 1.2rem;
+}
+
+.container{
+    margin: 0 100px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.2rem;
+}
+
+/* Utility class */
+:root{
+    --primary-color:#f6a309;
+    --secondary-color: #ffffff;
+}
+
+
+/* Header */
+
+.hero-section{
+    height: 100vh;
+    background-image: url(/hero-img4.jpg);
+    background-size: cover;
+}
+
+.name{
+    color: aliceblue;
+}
+
+.s-letter{
+    color: #f6a309;
+}
+
+.logo-img > img{
+    width: 100px;
+    height: 100px;
+}
+
+.link-style{
+    display: inline-block;
+    margin: 20px;
+}
+
+.link-style > a:hover{
+    color: var(--primary-color);
+    transition: 500ms ease-in-out;
+}
+
+.container-1{
+    justify-content: space-between;
+    padding-top: 20px
+
+}
+
+/* Hero Section */
+
+.hero-container{
+    height: 80%;
+    margin-block: 50px;
+}
+
+.name-intro{
+ color: white;
+}
+
+.name-intro > p {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+.name-intro > h1 {
+    font-size: 4rem;
+    color: var(--primary-color);
+}
+
+.name-intro > h4{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    text-align: center;
+}
+
+/* About Me */
+
+.section-3{
+    background-color: rgb(94, 96, 93);
+}
+
+.my-img > img{
+    width: 200px;
+}
+
+.my-img > h2{
+    margin-bottom: 20px;
+    text-align: start;
+}
+
+.my-img{
+    flex-basis: 10%;
+    margin: 20px;
+}
+
+.container-3{
+    padding-top: 50px;
+    gap: 50px;
+    position: relative;
+}
+
+.text-me{
+    position: absolute;
+    top: 10%;
+    right: 35%;   
+}
+
+.text-me > h2{
+    color: var(--primary-color);
+}
+
+.about-me {
+    flex-basis: 50%;
+    text-align: justify;
+    font-weight: 700;
+}
+
+/* Skills */
+
+.container-4{
+    margin-block: 30px;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+.section-4{
+    background-color: rgb(73, 73, 73);
+    padding-block: 30px;
+}
+
+.Skills > h2{
+    color: var(--primary-color);
+    
+}
+
+/* Hobbies */
+
+.gallery{
+    height: 90vh;
+    display: grid;
+    grid-template: repeat(2,300px) / repeat(2,50%);
+    gap: 10px;
+}
+
+.box-1{
+    background-image: url(https://images.unsplash.com/photo-1510852151262-05bfbfbe996d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fEVkaXRpbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-position: top;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+
+}
+
+.box-2{
+    background-image: url(https://images.unsplash.com/photo-1525201548942-d8732f6617a0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8R3VpdGFyfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: top;
+    color: white;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+
+.box-3{
+    background-image: url(https://images.unsplash.com/photo-1505250469679-203ad9ced0cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Rm9vdGJhbGxlcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: top;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+    
+}
+
+.box-4{
+    background-image: url(https://images.unsplash.com/photo-1616356607338-fd87169ecf1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDd8fHNwb3RpZnl8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+    background-position: top;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 600;
+    background-color: #222;
+    background-blend-mode: hard-light;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+}
+
+.hover-box:hover{
+    background-color: #999;
+    background-position: center;
+}
+
+.gallery > div:hover{
+    color: var(--primary-color);
+}
+
+.project-txt > h2{
+    text-align: center;
+    color: var(--primary-color);
+    padding: 50px 0;
+
+}
+
+.section-5{
+    background-color: rgb(94, 96, 93);
+}
+
+/* Contact Me */
+  
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.container-6{
+    height: 100vh;
+}
+
+.signup-box > p{
+    display: inline-block;  
+}
+
+.signup-box{
+    background-color: aliceblue;
+    border: 3px solid transparent;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+    padding: 40px;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 30%;  
+}
+
+.input-class{
+    width: 100%;
+    border-radius: 5px;
+    height: 150%; 
+    padding-left: 10px;
+}
+
+.header-tag{
+    margin-top: 10px ;
+    align-content: center;
+}
+
+.signup-box > h4{
+    margin-top: 30px;
+}
+
+.submit-btn{
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: #ffffff;
+    font-size: 1.3rem;
+}
+
+.submit-btn:hover{
+    background-color: var(--primary-color);
+    transition: 800ms ease-in-out;
+}
+
+/* Footer */
+
+.footer-bg{
+    background-color: rgb(113, 113, 113);
+    height: 10%;
+    padding-top: 20px;
+}
+.footer-container{
+    justify-content:space-around;
+}
+
+.copy-right{
+    font-weight: 600;
+    color: rgb(29, 29, 29);
+}
+
+.social-icons > a{
+    margin: 10px;
+}
+
+.youtube:hover{
+    color: red;
+    transition: 400ms ease-in-out;
+}
+
+.instagram:hover{
+    color: rgb(255, 0, 234);
+    transition: 400ms ease-in-out;
+}
+
+.twitter:hover{
+    color: rgb(0, 205, 251);
+    transition: 400ms ease-in-out;
+}
+
+.spotify:hover{
+    color: rgb(2, 176, 14);
+    transition: 400ms ease-in-out;
+}
+
