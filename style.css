@@ -127,6 +127,7 @@ a{
 .my-img > h2{
     margin-bottom: 20px;
     text-align: start;
+    color: var(--primary-color);
 }
 
 .my-img{
@@ -140,15 +141,15 @@ a{
     position: relative;
 }
 
-.text-me{
+/* .text-me{
     position: absolute;
     top: 10%;
     right: 35%;   
-}
+} */
 
-.text-me > h2{
+/* .text-me > h2{
     color: var(--primary-color);
-}
+} */
 
 .about-me {
     flex-basis: 50%;
